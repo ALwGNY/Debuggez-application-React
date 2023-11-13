@@ -15,7 +15,7 @@ import { useData } from "../../contexts/DataContext";
 const Page = () => {
   const { data } = useData()
   const findLast = () => {
-    if (!data || data.lenght === 0) {
+    if (!data || data.length === 0) {
       return null
     }
     const lastData = data.focus.sort((a, b) => new Date (b.date)- new Date (a.date))
