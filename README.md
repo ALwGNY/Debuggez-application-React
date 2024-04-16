@@ -1,7 +1,8 @@
 # 724 Events
 
-## Description
-L'application est le site d'une agence evenementielle.
+## Presentation
+This project aimed to resolve bugs and write unit tests in a react application
+
 ## Pre-requis
 - NodeJS  >= v16.14.1
 npm
